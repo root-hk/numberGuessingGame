@@ -20,7 +20,7 @@ function checkGuess() {
         lastResult.textContent.color = "white"
         lowOrHi.textContent = "";
         setGameOver();
-    }else if(guessCount === 3){
+    }else if(guessCount === 10){
         lastResult.textContent = "!!!GAME OVER!!!"
         lastResult.style.backgroundColor = 'red';
         lastResult.textContent.color = "white"
